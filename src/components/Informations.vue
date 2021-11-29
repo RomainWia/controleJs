@@ -1,7 +1,5 @@
 <template>
-<div>
-
-</div>
+<!-- ici je créé un simple document HTML -->
 <h1>Info about available timeslots</h1>
 <div>
     <div style="color:black">

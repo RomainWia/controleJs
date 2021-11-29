@@ -2,9 +2,9 @@
   <div class="temp">
     <p>Choose one of the available timeslots</p>
 
-    <div v-for="item in items" :key="item.schedule" class="tt" >
+    <div v-for="item in items" :key="item.schedule" class="tt" > <!-- ici je créé ma boucle pour avoir tout mes inputs avec les données de mes items -->
         <div class="{{item.premium}} {{item.prime}}"> <!-- je cherche a ajouter une classe premium et prime pour les éléments qui en ont pour ajouter une couleur au css  -->
-            <input type="radio" id="{{item.schedule}}" name="schedule" value="{{item.schedule}}" required />
+            <input type="radio" id="{{item.schedule}}" name="schedule" value="{{item.schedule}}" required /> 
             <label for="{{item.schedule}}">{{item.schedule}}</label>
         </div>
         
